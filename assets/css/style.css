@@ -1,3 +1,179 @@
+/* -------------------------------------------------------------------- Variables */
+:root {
+    --white: #ffffff;
+    --Gold: #ffd700;
+}
+
+/* -------------------------------------------------------------------- Resets */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(90deg, rgba(9, 9, 9, 1) 46%, rgba(0, 76, 143, 1) 100%);
+}
+/* -------------------------------------------------------------------- Header */
+
+#header {
+    display: grid;
+    grid-template-areas: "logo space menu";
+    padding: 20px;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.logo {
+    display: grid;
+    grid-area: logo;
+    color: white;
+
+}
+
+.menu ul {
+    display: grid;
+    grid-template-areas: "Home Projects Resume Skills Experience Contact";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo div {
+    background-color: var(--white);
+    margin-left: 20px;
+}
+
+
+.menu li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.log-part1 {
+    position: absolute;
+    animation-name: log-part1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.logo-part2 {
+    position: absolute;
+    animation-name: log-part2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.logo-part3 {
+    top: 100px;
+    position: absolute;
+    animation-name: log-part3;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.logo-part4 {
+    top: 60px;
+    left: 92px;
+    position: absolute;
+    animation-name: log-part4;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.logo-part5 {
+    top: 60px;
+    left: 60px;
+    position: absolute;
+    animation-name: log-part5;
+    animation-duration: 4s;
+    animation-delay: 16s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+/* -------------------------------------------------------------------- Header Animation */
+
+@keyframes log-part1 {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: 80px;
+        height: 20px;
+    }
+}
+
+@keyframes log-part2 {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+
+        width: 20px;
+        height: 80px;
+    }
+}
+
+@keyframes log-part3 {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: 80px;
+        height: 20px;
+    }
+}
+
+
+@keyframes log-part4 {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: 20px;
+        height: 60px;
+    }
+}
+
+@keyframes log-part5 {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: 50px;
+        height: 20px;
+    }
 }
