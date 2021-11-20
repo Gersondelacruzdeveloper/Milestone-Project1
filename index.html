@@ -36,18 +36,28 @@
     <div class="logo-part5"></div>
   </div>
 
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Experience</a></li>
-      <li><a href="#">Contact</a></li>
+  <div class="menu-bar tap-target" role="button" id="nav-burger">
+    <span class="sr-only">Open the navigation menu</span>
+    <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
+  </div>
+
+  <nav class="menu" id="menu">
+    <div class="menu-bar" role="button" id="close-icon">
+      <span class="sr-only">Close the navigation menu</span>
+      <i class="fas fa-times fa-2x tap-target close-icon"></i>
+    </div>
+    <ul class="overlay-content">
+      <li clas="list-item"><a href="#">Home</a></li>
+      <li clas="list-item"><a href="#">Projects</a></li>
+      <li clas="list-item"><a href="#">Resume</a></li>
+      <li clas="list-item"><a href="#">Skills</a></li>
+      <li clas="list-item"><a href="#">Experience</a></li>
+      <li clas="list-item"><a href="#">Contact</a></li>
     </ul>
   </nav>
 </header>
     <main>
     </main>
+<script src="assets/js/NavBar.js"></script>
   </body>
 </html>

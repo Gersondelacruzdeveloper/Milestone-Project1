@@ -1,7 +1,8 @@
 /* -------------------------------------------------------------------- Variables */
 :root {
     --white: #ffffff;
-    --Gold: #ffd700;
+    --Gold: #fcfd04;
+    --black: #000000;
 }
 
 /* -------------------------------------------------------------------- Resets */
@@ -19,7 +20,39 @@ html {
 
 body {
     background: linear-gradient(90deg, rgba(9, 9, 9, 1) 46%, rgba(0, 76, 143, 1) 100%);
+    font-family: 'Raleway',
+    sans-serif;
+    }
+
+
+    /* -------------------------------------------------------------------- Hover / Focus */
+
+    li a:hover,
+    li a:focus {
+        text-decoration: underline;
+        text-decoration-color: var(--Gold);
+        text-decoration-style: double;
+
+    }
+/* -------------------------------------------------------------------- Accessibility */
+
+.tap-target {
+    min-width: 48px;
+    min-height: 48px;
 }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* -------------------------------------------------------------------- Header */
 
 #header {
@@ -114,6 +147,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+.menu-bar {
+    display: none;
+}
+
 /* -------------------------------------------------------------------- Header Animation */
 
 @keyframes log-part1 {
@@ -175,5 +212,67 @@ body {
     to {
         width: 50px;
         height: 20px;
+    }
+}
+/* -------------------------------------------------------------------- Media queries */
+
+@media only screen and (max-width: 768px) {
+    .menu-bar {
+        border-radius: 2px 2px 2px 2px;
+        display: block;
+        color: var(--white);
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        right: 0;
+        top: 19px;
+    }
+
+    /* Menu slide down from the top*/
+    .menu {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+        overflow-y: hidden;
+        transition: 0.5s;
+        margin: 0;
+        display: grid;
+        align-content: center;
+    }
+
+    .menu ul {
+        display: grid;
+        grid-template-areas: "auto";
+
+    }
+
+    .overlay-content {
+        overflow: hidden;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+
+    .overlay-content li:after {
+        content: "";
+        background: var(--Gold);
+        display: block;
+        width: 50%;
+        height: 2px;
+        margin: 10px auto;
+
+    }
+
+    .close-icon {
+        padding-top: 8px;
+    }
+
+    .navbar-toggle {
+        height: 50%;
     }
 }
