@@ -21,7 +21,8 @@ html {
 
 body {
     background: linear-gradient(90deg, rgba(9, 9, 9, 1) 46%, rgba(0, 76, 143, 1) 100%);
-    font-family: 'Raleway',
+    font-family: Arial,
+    Helvetica,
     sans-serif;
     }
 
@@ -220,69 +221,6 @@ body {
         height: 20px;
     }
 }
-/* -------------------------------------------------------------------- Media queries */
-
-@media only screen and (max-width: 768px) {
-    .menu-bar {
-        border-radius: 2px 2px 2px 2px;
-        display: block;
-        color: var(--white);
-        width: 48px;
-        height: 48px;
-        position: absolute;
-        right: 0;
-        top: 19px;
-    }
-
-    /* Menu slide down from the top*/
-    .menu {
-        height: 0%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-        overflow-y: hidden;
-        transition: 0.5s;
-        margin: 0;
-        display: grid;
-        align-content: center;
-    }
-
-    .menu ul {
-        display: grid;
-        grid-template-areas: "auto";
-
-    }
-
-    .overlay-content {
-        overflow: hidden;
-        width: 100%;
-        cursor: pointer;
-
-    }
-
-
-    .overlay-content li:after {
-        content: "";
-        background: var(--Gold);
-        display: block;
-        width: 50%;
-        height: 2px;
-        margin: 10px auto;
-
-    }
-
-    .close-icon {
-        padding-top: 8px;
-    }
-
-    .navbar-toggle {
-        height: 50%;
-    }
-}
-
 /* -------------------------------------------------------------------- Footer */
 
 footer {
@@ -350,4 +288,101 @@ footer div {
 .social a:hover,
 .social a:focus {
     background: linear-gradient(90deg, rgba(9, 9, 9, 1) 46%, rgba(0, 76, 143, 0.9402135854341737) 68%);
+}
+
+/* -------------------------------------------------------------------- Media queries */
+
+@media only screen and (max-width: 768px) {
+/* media queries for header*/
+    .menu-bar {
+        border-radius: 2px 2px 2px 2px;
+        display: block;
+        color: var(--white);
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        right: 0;
+        top: 19px;
+    }
+    .menu {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+        overflow-y: hidden;
+        transition: 0.5s;
+        margin: 0;
+        display: grid;
+        align-content: center;
+    }
+
+    .menu ul {
+        display: grid;
+        grid-template-areas: "auto";
+
+    }
+
+    .overlay-content {
+        overflow: hidden;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+
+    .overlay-content li:after {
+        content: "";
+        background: var(--Gold);
+        display: block;
+        width: 50%;
+        height: 2px;
+        margin: 10px auto;
+
+    }
+
+    .close-icon {
+        padding-top: 8px;
+    }
+
+    .navbar-toggle {
+        height: 50%;
+    }
+}
+
+/* media queries for footer*/
+@media only screen and (max-width: 648px) {
+
+    .copyright-container p {
+        font-size: 8px;
+
+    }
+
+    .cv-pdf a {
+        font-size: 12px;
+    }
+
+    .social a {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: var(--white);
+        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+        border: 2px solid rgb(97, 105, 97);
+        line-height: 30px;
+        text-align: center;
+        }
+        .cv-pdf i {
+            width: 30px;
+            height: 30px;
+            color: var(--white);
+            background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+            border-radius: 50%;
+            border: 2px solid rgb(97, 105, 97);
+            line-height: 30px;
+            text-align: center;
+            }
+
 }
