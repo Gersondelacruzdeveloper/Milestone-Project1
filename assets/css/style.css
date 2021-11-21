@@ -371,7 +371,7 @@ footer div {
         color: var(--white);
         background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
         border: 2px solid rgb(97, 105, 97);
-        line-height: 30px;
+        line-height: 25px;
         text-align: center;
         }
         .cv-pdf i {
@@ -381,7 +381,7 @@ footer div {
             background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
             border-radius: 50%;
             border: 2px solid rgb(97, 105, 97);
-            line-height: 30px;
+            line-height: 25px;
             text-align: center;
             }
 
