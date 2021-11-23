@@ -29,6 +29,7 @@ body {
     a {
         text-decoration: none;
         color: var(--white);
+        transition: all 0.5s ease-out;
     }
 
 
@@ -36,9 +37,7 @@ body {
 
     li a:hover,
     li a:focus {
-        text-decoration: underline;
-        text-decoration-color: var(--Gold);
-        text-decoration-style: double;
+        color: var(--Gold);
 
     }
 /* -------------------------------------------------------------------- Accessibility */
@@ -157,6 +156,52 @@ body {
 .menu-bar {
     display: none;
 }
+/* -------------------------------------------------------------------- Home */
+#home {
+    margin: 10% auto;
+    display: grid;
+    grid-template-areas: "name-acupation profile-photo paragraph";
+    width: 70%;
+}
+
+.name-ocupation {
+    grid-area: name-acupation;
+    color: white;
+    height: 50%;
+    width: auto;
+}
+
+.name-ocupation p {
+    font-size: 20px;
+}
+
+.name-ocupation h1 {
+    font-size: 50px;
+    color: var(--Gold)
+}
+
+.name-ocupation h3 {
+    font-size: 40px;
+}
+
+.profile-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid var(--Gold);
+    margin-left: -50%;
+}
+
+.paragraph {
+    grid-area: paragraph;
+    color: var(--Gold);
+    width: 60%;
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: -10%;
+    text-align: justify;
+}
+
 
 /* -------------------------------------------------------------------- Header Animation */
 
@@ -292,8 +337,60 @@ footer div {
 
 /* -------------------------------------------------------------------- Media queries */
 
+      /* large devices (laptops and desktops, from 1374px to 1025px)*/
+      @media only screen and (max-width: 1374px) {
+
+          .name-ocupation h1 {
+              font-size: 35px;
+          }
+
+          .name-ocupation h3 {
+              font-size: 25px;
+          }
+
+          .profile-photo img {
+              width: 250px;
+              height: 250px;
+              margin-left: -50%;
+          }
+
+          .paragraph {
+              margin-top: -50px;
+              width: 60%;
+          }
+
+      }
+
+      /* Medium devices (landscape tablets, from 1025px to 768px) */
+      @media only screen and (max-width: 1025px) {
+          #home {
+              margin-top: 15%;
+          }
+
+          .name-ocupation h1 {
+              font-size: 30px;
+          }
+
+          .name-ocupation h3 {
+              font-size: 20px;
+          }
+
+          .profile-photo img {
+              width: 250px;
+              height: 250px;
+              margin-left: 30%;
+          }
+
+          .paragraph {
+              margin-top: -100px;
+              width: 100%;
+          }
+
+      }
+
+
+      /* Small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
-/* media queries for header*/
     .menu-bar {
         border-radius: 2px 2px 2px 2px;
         display: block;
@@ -462,39 +559,65 @@ footer div {
         }
     }
 
+#home {
+    text-align: center;
+    margin-top: 15%;
 }
 
-/* media queries for footer*/
-@media only screen and (max-width: 648px) {
+.name-ocupation {
+    color: white;
+    height: 50%;
+    grid-row: 1;
+    grid-column: 1;
+}
 
-    .copyright-container p {
-        font-size: 8px;
+.name-ocupation h1 {
+    font-size: 25px;
+}
 
+.profile-photo {
+    grid-area: profile-photo;
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 30px;
+
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    margin-left: -5%;
+
+}
+
+.paragraph {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: justify;
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* footer queries */
+.copyright-container p {
+    font-size: 8px;
+
+}
+
+.cv-pdf a {
+    font-size: 12px;
+}
+
+.social a {
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
     }
 
-    .cv-pdf a {
-        font-size: 12px;
-    }
-
-    .social a {
+    .cv-pdf i {
         width: 30px;
         height: 30px;
-        border-radius: 50%;
-        color: var(--white);
-        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-        border: 2px solid rgb(97, 105, 97);
         line-height: 25px;
-        text-align: center;
-        }
-        .cv-pdf i {
-            width: 30px;
-            height: 30px;
-            color: var(--white);
-            background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-            border-radius: 50%;
-            border: 2px solid rgb(97, 105, 97);
-            line-height: 25px;
-            text-align: center;
-            }
+      }
 
 }
