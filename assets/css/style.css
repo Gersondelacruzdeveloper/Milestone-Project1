@@ -106,19 +106,12 @@ body {
 
 .log-part1 {
     position: absolute;
-    animation-name: log-part1;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+    animation:log-part1 4s linear forwards;
 }
 
 .logo-part2 {
     position: absolute;
-    animation-name: log-part2;
-    animation-duration: 4s;
-    animation-delay: 4s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+    animation: log-part2 4s linear 4s forwards;
 }
 
 .logo-part3 {
@@ -171,7 +164,7 @@ body {
     width: auto;
 }
 
-.name-ocupation p {
+.name-ocupation p{
     font-size: 20px;
 }
 
@@ -180,8 +173,8 @@ body {
     color: var(--Gold)
 }
 
-.name-ocupation h3 {
-    font-size: 40px;
+.name-ocupation h2 {
+    font-size: 20px;
 }
 
 .profile-photo img {
