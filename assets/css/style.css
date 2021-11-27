@@ -66,6 +66,9 @@ body {
     display: grid;
     grid-template-areas: "logo space menu";
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width:100%;
 }
 
 .menu {
@@ -115,7 +118,7 @@ body {
 
 /* -------------------------------------------------------------------- Home Page */
 #home {
-    margin:10% auto;
+    margin:15% auto;
     display: grid;
     grid-template-areas: "name-acupation profile-photo paragraph";
     width: 70%;
@@ -468,9 +471,10 @@ footer div {
         height: 50%;
     }
 
+
 #home {
     text-align: center;
-    margin-top: 5%;
+    margin:30% auto;
 }
 
 .name-ocupation {
