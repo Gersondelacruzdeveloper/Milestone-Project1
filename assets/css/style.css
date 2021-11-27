@@ -2,7 +2,7 @@
 :root {
     --white:#f2f2f2;
     --white-grey:#e6e6e6;
-    --Gold: #fcfd04;
+    --gold: #fcfd04;
     --black: #000000;
     --blue: rgba(0, 76, 143, 1);
 }
@@ -10,7 +10,6 @@
 /* -------------------------------------------------------------------- Resets */
 
 html {
-    height: 100%;
     width: 100%;
 }
 
@@ -25,6 +24,7 @@ body {
     font-family: Arial,
     Helvetica,
     sans-serif;
+    margin-bottom: 78px;
     }
 
     a {
@@ -38,7 +38,7 @@ body {
 
     li a:hover,
     li a:focus {
-        color: var(--Gold);
+        color: var(--gold);
 
     }
 /* -------------------------------------------------------------------- Accessibility */
@@ -99,7 +99,7 @@ body {
     position: relative;
     width: 50px;
     height:50px;
-    border:2px solid var(--Gold);
+    border:2px solid var(--gold);
     font-size:25px;
     line-height: 45px;
     animation:rotate-log-frame  4s linear infinite;
@@ -113,7 +113,7 @@ body {
     font-size: 35px;
 }
 
-/* -------------------------------------------------------------------- Home */
+/* -------------------------------------------------------------------- Home Page */
 #home {
     margin:10% auto;
     display: grid;
@@ -135,7 +135,7 @@ body {
 
 .name-ocupation h1 {
     font-size: 50px;
-    color: var(--Gold)
+    color: var(--gold)
 }
 
 .name-ocupation h2 {
@@ -146,18 +146,73 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 2px solid var(--Gold);
+    border: 2px solid var(--gold);
     margin-left: -50%;
 }
 
 .paragraph {
     grid-area: paragraph;
-    color: var(--Gold);
+    color: var(--gold);
     width: 60%;
     grid-column: 1;
     grid-row: 2;
     margin-top: -10%;
     text-align: justify;
+}
+/* -------------------------------------------------------------------- Skills Page */
+#skills{
+    color:var(--white);
+    margin-top:350px;
+}
+#skills h2{
+    text-align:center;
+    font-size: 50px;
+    color: var(--gold)
+}
+#skills h3{
+    text-align:center;
+    margin-top:10px;
+    font-size: 24px;
+}
+
+.progress-container{
+    margin-top:20px;
+    padding:20px;
+}
+
+.progress{
+    border:2px  solid var(--white);
+    border-radius:20px;
+    width:60%;
+    margin:10px auto;
+    color:var(--black);
+    position:relative
+}
+
+.progress-bar1,.progress-bar2,.progress-bar3, .progress-bar4,.progress-bar5{
+    position:relative;
+    background-color: var(--gold);
+    padding:5px;
+    border-radius:20px;
+}
+
+.progress-bar1{
+    animation: progress1 4s linear forwards;
+}
+
+.progress-bar2{
+    animation: progress2 4s linear forwards;
+}
+
+.progress-bar3{
+    animation: progress3 4s linear forwards;
+}
+
+.progress-bar4{
+    animation: progress4 4s linear forwards;
+}
+.progress-bar5{
+    animation: progress5 4s linear forwards;
 }
 
 
@@ -184,6 +239,52 @@ body {
         transform:scale(1);
     }
     } 
+
+
+    @keyframes progress1{
+        0%{
+            width:20%;
+        }
+        100%{
+            width:95%;
+        }
+        }
+        
+        @keyframes progress2{
+            0%{
+                width:20%;
+            }
+            100%{
+                width:90%;
+            }
+        }
+        
+        @keyframes progress3{
+            0%{
+                width:20%;
+            }
+            100%{
+                width:70%;
+            }
+        }
+        
+        @keyframes progress4{
+            0%{
+                width:20%;
+            }
+            100%{
+                width:89%;
+            }
+        }
+        
+        @keyframes progress5{
+            0%{
+                width:20%;
+            }
+            100%{
+                width:98%;
+            }
+        }
 
 /* -------------------------------------------------------------------- Footer */
 
@@ -351,7 +452,7 @@ footer div {
 
     .overlay-content li:after {
         content: "";
-        background: var(--Gold);
+        background: var(--gold);
         display: block;
         width: 50%;
         height: 2px;
@@ -365,117 +466,6 @@ footer div {
 
     .navbar-toggle {
         height: 50%;
-    }
-    .log-part1 {
-        position: absolute;
-        animation-name: log-part1;
-        animation-duration: 4s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-
-    .logo-part2 {
-        position: absolute;
-        animation-name: log-part2;
-        animation-duration: 4s;
-        animation-delay: 4s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-
-    .logo-part3 {
-        top: 60px;
-        position: absolute;
-        animation-name: log-part3;
-        animation-duration: 4s;
-        animation-delay: 8s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-
-    .logo-part4 {
-        top: 40px;
-        left: 60px;
-        position: absolute;
-        animation-name: log-part4;
-        animation-duration: 4s;
-        animation-delay: 12s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-
-    .logo-part5 {
-        top: 40px;
-        left: 40px;
-        position: absolute;
-        animation-name: log-part5;
-        animation-duration: 4s;
-        animation-delay: 16s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-
-    /* media queries, Animation for header*/
-    @keyframes log-part1 {
-        from {
-            width: 0px;
-            height: 0px;
-        }
-
-        to {
-            width: 40px;
-            height: 10px;
-        }
-    }
-
-    @keyframes log-part2 {
-        from {
-            width: 0px;
-            height: 0px;
-        }
-
-        to {
-
-            width: 10px;
-            height: 40px;
-        }
-    }
-
-    @keyframes log-part3 {
-        from {
-            width: 0px;
-            height: 0px;
-        }
-
-        to {
-            width: 50px;
-            height: 10px;
-        }
-    }
-
-
-    @keyframes log-part4 {
-        from {
-            width: 0px;
-            height: 0px;
-        }
-
-        to {
-            width: 10px;
-            height: 30px;
-        }
-    }
-
-    @keyframes log-part5 {
-        from {
-            width: 0px;
-            height: 0px;
-        }
-
-        to {
-            width: 20px;
-            height: 10px;
-        }
     }
 
 #home {
@@ -538,5 +528,17 @@ footer div {
         height: 30px;
         line-height: 25px;
       }
+
+/* Skills page */
+    #skills{
+        margin-top:200px;
+    }
+      #skills h2{
+        font-size: 30px;
+    }
+    #skills h3{
+        font-size: 20px;
+    }
+
 
 }
