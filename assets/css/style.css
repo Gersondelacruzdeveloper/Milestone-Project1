@@ -67,6 +67,7 @@ body {
     color: var(--gold)
 }
 #experience,
+#projects,
 #skills{
     color:var(--white);
     margin-top:10%;
@@ -78,8 +79,6 @@ body {
     display: grid;
     grid-template-areas: "logo space menu";
     padding: 20px;
-    position: fixed;
-    top: 0;
     width:100%;
 }
 
@@ -89,7 +88,7 @@ body {
 
 .menu ul {
     display: grid;
-    grid-template-areas: "Home Projects Resume Skills Experience Contact";
+    grid-template-areas: "Home Projects Skills Experience Contact";
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -258,7 +257,27 @@ body {
     border-radius:50%;
 
 }
+/* -------------------------------------------------------------------- Project page */
+.card-container{
+display:grid;
+grid-template-columns:auto auto auto;
+grid-row-gap:70px;
+margin:100px auto;
+width:80%;
+}
 
+.card{
+    margin:auto;
+    background-color:var(--white);
+    color:black;
+    text-align:center;
+    width:200px;
+    height:200px;
+    padding:20px;
+}
+.card-body a{
+    color:black;
+}
 
 /* -------------------------------------------------------------------- Animation */
 
@@ -423,6 +442,11 @@ footer div {
               width: 60%;
           }
 
+          .card-container{
+            grid-template-columns:auto auto auto;
+            width:100%;
+            }
+
       }
 
       /* Medium devices (landscape tablets, from 1025px to 768px) */
@@ -450,6 +474,11 @@ footer div {
               width: 100%;
           }
 
+
+      .card-container{
+        grid-template-columns:auto auto;
+        width:100%;
+        }
       }
 
 
@@ -593,18 +622,9 @@ footer div {
         width:70%;
     }
 
-/*
-    .animated-line-through{
-        width:115%;
-        margin:65% 0 0 -49.5%;
-    }
-    .timeline-item{
-        width:70%;
-    }
 
-    .timeline-item::before{
-        margin:15px 0px 0px -64.5%;
-    }
-    */
+    .card-container{
+        grid-template-columns:auto;
+        }
 
 }
