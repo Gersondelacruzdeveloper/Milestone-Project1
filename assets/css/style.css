@@ -128,7 +128,7 @@ body {
 
 /* -------------------------------------------------------------------- Home Page */
 #home {
-    margin:15% auto;
+    margin:7% auto;
     display: grid;
     grid-template-areas: "name-acupation profile-photo paragraph";
     width: 70%;
@@ -529,7 +529,7 @@ footer div {
       /* Medium devices (landscape tablets, from 1025px to 768px) */
       @media only screen and (max-width: 1025px) {
           #home {
-              margin-top: 15%;
+              margin-top: 7%;
           }
 
           .name-ocupation h1 {
@@ -621,7 +621,7 @@ footer div {
 
 #home {
     text-align: center;
-    margin:30% auto;
+    margin:6% auto;
 }
 
 .name-ocupation {
