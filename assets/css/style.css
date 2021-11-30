@@ -704,4 +704,11 @@ footer div {
         grid-template-columns:auto;
         }
 
+        .card-img{
+            width:300px;
+            height:200px;
+            object-fit: fill;
+          }
+
+
 }
