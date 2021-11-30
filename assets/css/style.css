@@ -5,6 +5,7 @@
     --gold: #fcfd04;
     --black: #000000;
     --blue: rgba(0, 76, 143, 1);
+    --transparent-black:rgba(0, 0, 3, 0.486);
 }
 
 /* -------------------------------------------------------------------- Resets */
@@ -32,7 +33,6 @@ body {
         color: var(--white);
         transition: all 0.5s ease-out;
     }
-
 
     /* -------------------------------------------------------------------- Hover / Focus */
 
@@ -266,18 +266,66 @@ margin:100px auto;
 width:80%;
 }
 
+
 .card{
+    position: relative;
     margin:auto;
     background-color:var(--white);
-    color:black;
     text-align:center;
-    width:200px;
-    height:200px;
-    padding:20px;
 }
+
+.card-img{
+    width:352px;
+    height:255px;
+    object-fit: fill;
+  }
+
+
+.card-body{
+  position:absolute;
+  background: var(--transparent-black);
+  color:var(--white);
+  top:0px;
+  bottom: 0px;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.card:hover .card-body{
+    visibility: visible;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+
+}
+.card-title{
+    position: relative;
+    top:40px;
+}
+
+.card-text{
+    position: relative;
+    top:60px;
+}
+
 .card-body a{
-    color:black;
+    position: relative;
+    top:100px;
+
 }
+
+.card-body:hover h1{
+    animation: move-title-text 0.2s linear forwards;
+}
+.card-body:hover p{
+    animation: move-title-text 0.2s linear forwards;
+}
+.card-body:hover a{
+    animation:  move-link 0.2s linear forwards;
+}
+
+
 
 /* -------------------------------------------------------------------- Animation */
 
@@ -348,6 +396,33 @@ width:80%;
                 width:98%;
             }
         }
+
+
+        @keyframes move-title-text {
+            0%{
+                left:300px
+        
+            }
+        
+            100%{
+                left:0px;
+            }
+        }
+        
+        
+        @keyframes move-link {
+            0%{
+                left:300px
+        
+            }
+        
+            100%{
+                left:0px;
+                border:2px solid var(--gold);
+                padding:10px;
+            }
+        }
+        
 
 /* -------------------------------------------------------------------- Footer */
 
