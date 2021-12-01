@@ -710,5 +710,9 @@ footer div {
             object-fit: fill;
           }
 
+          .card-body{
+         font-size: 12px;
+          }
+
 
 }
