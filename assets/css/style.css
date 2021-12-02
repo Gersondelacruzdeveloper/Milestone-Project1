@@ -71,6 +71,27 @@ body {
     color:var(--white);
     margin-top:2%;
 }
+/* -------------------------------------------------------------------- line across every page */
+
+#line{
+    position: absolute;
+    width:4px;
+    height:100%;
+    background-color:var(--white);
+    right: 17%;
+    z-index: -1;
+    box-shadow: 2px 2px 5px 10px #e6e6e654;
+}
+
+.drop-inside-line{
+    position: absolute;
+    width:10px;
+    height:30px;
+    background-color:var(--white-grey);
+    border-radius: 50%;
+    animation: drop-inline-movement 4s linear infinite;
+    left:-3px;
+}
 
 /* -------------------------------------------------------------------- Header */
 
@@ -503,8 +524,18 @@ width:80%;
                 border:5px solid cadetblue;
             }
         }
-        
 
+        @keyframes drop-inline-movement {
+            0%{
+                top:0;
+            }
+            100%{
+                top:100%;
+            }
+            
+        }
+        
+        
 /* -------------------------------------------------------------------- Footer */
 
 footer {
@@ -794,6 +825,10 @@ footer div {
           .contact_form{
             width:80%;
         }
+
+        .form_btn{
+            font-size:15px;
+            }
 
 /* spacial margin/size */
         #experience,
