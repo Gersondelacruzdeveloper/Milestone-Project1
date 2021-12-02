@@ -631,6 +631,7 @@ footer div {
           }
 
 
+     /* project section */
       .card-container{
         grid-template-columns:auto auto;
         width:100%;
@@ -640,6 +641,8 @@ footer div {
 
       /* Small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
+
+    /* header section */
     .menu-bar {
         border-radius: 2px 2px 2px 2px;
         display: block;
@@ -697,7 +700,7 @@ footer div {
         height: 50%;
     }
 
-
+/* home section */
 #home {
     text-align: center;
     margin:6% auto;
@@ -737,7 +740,8 @@ footer div {
     width: 100%;
 }
 
-/* footer queries */
+
+/* footer */
 .copyright-container p {
     font-size: 8px;
 
@@ -759,26 +763,19 @@ footer div {
         line-height: 25px;
       }
 
-    #experience,
-    #skills{
-        margin-top:15%;
-    }
-
-    .section-heading{
-        font-size: 30px;
-    }
+/* skill section */
     #skills h3{
         font-size: 20px;
     }
     .progress{
         width:100%;
     }
-
+/* experience section*/
     .timeline-item{
         width:70%;
     }
 
-
+/* Project section*/
     .card-container{
         grid-template-columns:auto;
         }
@@ -796,6 +793,16 @@ footer div {
 /* contact page */
           .contact_form{
             width:80%;
+        }
+
+/* spacial margin/size */
+        #experience,
+        #skills{
+            margin-top:15%;
+        }
+    
+        .section-heading{
+            font-size: 30px;
         }
 
 }
