@@ -71,7 +71,7 @@ body {
     color:var(--white);
     margin-top:2%;
 }
-/* -------------------------------------------------------------------- line across every page */
+/* -------------------------------------------------------------------- vertical line to simulate moving data */
 
 #line{
     position: absolute;
