@@ -793,5 +793,9 @@ footer div {
          font-size: 12px;
           }
 
+/* contact page */
+          .contact_form{
+            width:80%;
+        }
 
 }
