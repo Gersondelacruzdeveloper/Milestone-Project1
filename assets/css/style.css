@@ -707,7 +707,7 @@ footer div {
 }
 
 .name-ocupation {
-    color: white;
+    color: var(--white);
     height: 50%;
     grid-row: 1;
     grid-column: 1;
