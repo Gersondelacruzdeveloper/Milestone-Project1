@@ -681,7 +681,7 @@ footer div {
         width: 48px;
         height: 48px;
         position: absolute;
-        right: 0;
+        right: 10%;
         top: 19px;
     }
     .menu {
