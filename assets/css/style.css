@@ -840,4 +840,17 @@ footer div {
             font-size: 30px;
         }
 
+/*vertical line to simulate moving data*/
+
+#line{
+    width:2px;
+    right: 5%;
+    box-shadow: 2px 2px 5px 5px #e6e6e654;
+}
+
+.drop-inside-line{
+    width:5px;
+    left:-1.1px;
+}
+
 }
