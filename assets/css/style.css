@@ -78,7 +78,7 @@ body {
     width:4px;
     height:100%;
     background-color:var(--white);
-    right: 20%;
+    right: 10%;
     z-index: -1;
     box-shadow: 2px 2px 5px 10px #e6e6e654;
 }
@@ -634,6 +634,9 @@ footer div {
             grid-template-columns:auto auto auto;
             width:100%;
             }
+            #line{
+                right: 13%;
+            }
 
       }
 
@@ -668,6 +671,12 @@ footer div {
         grid-template-columns:auto auto;
         width:100%;
         }
+
+    /* vefdfd */
+
+    #line{
+        right: 14%;
+    }
       }
 
 
