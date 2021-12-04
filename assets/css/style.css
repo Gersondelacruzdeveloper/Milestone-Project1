@@ -853,4 +853,52 @@ footer div {
     left:-1.1px;
 }
 
+/* Animation media queries */
+@keyframes progress1{
+    0%{
+        width:40%;
+    }
+    100%{
+        width:95%;
+    }
+    }
+    
+    @keyframes progress2{
+        0%{
+            width:40%;
+        }
+        100%{
+            width:90%;
+        }
+    }
+    
+    @keyframes progress3{
+        0%{
+            width:40%;
+        }
+        100%{
+            width:70%;
+        }
+    }
+    
+    @keyframes progress4{
+        0%{
+            width:40%;
+        }
+        100%{
+            width:89%;
+        }
+    }
+    
+    @keyframes progress5{
+        0%{
+            width:40%;
+        }
+        100%{
+            width:98%;
+        }
+    }
+
+
+
 }
