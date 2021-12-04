@@ -801,6 +801,11 @@ footer div {
     .progress{
         width:100%;
     }
+
+    .progress{
+        width:90%;
+    }
+
 /* experience section*/
     .timeline-item{
         width:70%;
