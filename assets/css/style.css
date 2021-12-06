@@ -78,7 +78,7 @@ body {
     width:4px;
     height:100%;
     background-color:var(--white);
-    right: 10%;
+    right: 12%;
     z-index: -1;
     box-shadow: 2px 2px 5px 10px #e6e6e654;
 }
@@ -658,21 +658,27 @@ footer div {
               margin-top: -100px;
               width: 100%;
           }
-
-
      /* project section */
       .card-container{
         grid-template-columns:auto auto;
         width:100%;
         }
 
-    /* vefdfd */
+    /* vertical line to simulate moving data*/
 
     #line{
-        right: 14%;
+        right: 15%;
     }
       }
+      
 
+     /* stop the vertical line to move on the icon */
+      @media only screen and (max-width: 849px) {
+        #line{
+            right: 16%;
+        }
+
+      }
 
       /* Small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
