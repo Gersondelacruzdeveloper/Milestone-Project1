@@ -89,7 +89,7 @@ body {
     height:30px;
     background-color:var(--white-grey);
     border-radius: 50%;
-    animation: drop-inline-movement 4s linear infinite;
+    animation: drop-inline-movement 2s linear infinite;
     left:-3px;
 }
 
