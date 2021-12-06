@@ -8,7 +8,6 @@
     --transparent-black:rgba(0, 0, 3, 0.486);
     --midnight:#011627;
     --font:Wotfard,sans-serif;
-
 }
 
 /* -------------------------------------------------------------------- Resets */
@@ -142,7 +141,7 @@ body {
 .logo{
     position: absolute;
     color:var(--white);
-    top:20px;
+    top:25px;
     left:30px;
     font-family: var(--font);
     font-size: 35px;
