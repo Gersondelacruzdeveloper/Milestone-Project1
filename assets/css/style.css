@@ -2,7 +2,7 @@
 :root {
     --white:#f2f2f2;
     --white-grey:#e6e6e6;
-    --gold: #fcfd04;
+    --turquoise: #2ec4b6;
     --black: #000000;
     --blue: rgba(0, 76, 143, 1);
     --transparent-black:rgba(0, 0, 3, 0.486);
@@ -39,7 +39,7 @@ body {
 
     li a:hover,
     li a:focus {
-        color: var(--gold);
+        color: var(--turquoise);
 
     }
 /* -------------------------------------------------------------------- Accessibility */
@@ -65,7 +65,7 @@ body {
 .section-heading{
     text-align:center;
     font-size: 50px;
-    color: var(--gold)
+    color: var(--turquoise)
 }
 #experience,
 #projects{
@@ -134,7 +134,7 @@ body {
     position: relative;
     width: 50px;
     height:50px;
-    border:2px solid var(--gold);
+    border:2px solid var(--turquoise);
     font-size:25px;
     line-height: 45px;
     animation:rotate-log-frame  4s linear infinite;
@@ -170,7 +170,7 @@ body {
 
 .name-ocupation h1 {
     font-size: 50px;
-    color: var(--gold)
+    color: var(--turquoise)
 }
 
 .name-ocupation h2 {
@@ -181,13 +181,13 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 2px solid var(--gold);
+    border: 2px solid var(--turquoise);
     margin-left: -50%;
 }
 
 .paragraph {
     grid-area: paragraph;
-    color: var(--gold);
+    color: var(--turquoise);
     width: 60%;
     grid-column: 1;
     grid-row: 2;
@@ -223,7 +223,7 @@ body {
 
 .progress-bar1,.progress-bar2,.progress-bar3, .progress-bar4,.progress-bar5{
     position:relative;
-    background-color: var(--gold);
+    background-color: var(--turquoise);
     padding:5px;
     border-radius:20px;
 }
@@ -275,7 +275,7 @@ body {
 .timeline-item::before{
     position:absolute;
     content: '';
-    background-color:var(--gold);
+    background-color:var(--turquoise);
     width:20px;
     height:20px;
     margin:15px 0px 0px -60.5%;
@@ -512,7 +512,7 @@ width:80%;
         
             100%{
                 left:0px;
-                border:2px solid var(--gold);
+                border:2px solid var(--turquoise);
                 padding:10px;
             }
         }
@@ -726,7 +726,7 @@ footer div {
 
     .overlay-content li:after {
         content: "";
-        background: var(--gold);
+        background: var(--turquoise);
         display: block;
         width: 50%;
         height: 2px;
