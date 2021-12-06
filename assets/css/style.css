@@ -31,16 +31,16 @@ body {
     a {
         text-decoration: none;
         color: var(--white);
-        transition: all 0.5s ease-out;
     }
-
     /* -------------------------------------------------------------------- Hover / Focus */
 
     li a:hover,
     li a:focus {
         color: var(--turquoise);
-
+        border-bottom: 2px solid var(--turquoise);
     }
+  
+
 /* -------------------------------------------------------------------- Accessibility */
 
 .tap-target {
