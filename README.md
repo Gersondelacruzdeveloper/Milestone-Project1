@@ -1,108 +1,183 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+<h1 align="center">My Portfolio</h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2 align="center">Code Institute - Milestone Project 1</h2>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<img src="./assets/documentation/portfolio-main.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
 
-## Gitpod Reminders
+Hello, this is my portfolio and is the first of four Milestone Projects that make up the Full Stack Web Development Program at the Code Institue. The main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The project is developed primarily using **HTML** and **CSS**, with a small amount of **JavaScript** implemented for additional functionality.
 
-`python3 -m http.server`
+[View website on GitHub Pages](https://gersondelacruzdeveloper.github.io/Milestone-Project1/).
 
-A blue button should appear to click: _Make Public_,
+## Table of contents
+1. [**User Experience (UX)**](#User-experience)
+     1. [Strategy](#strategy)
+     2. [Scope](#scope)
+     3. [Structure](#structure)
+     4. [Skeleton](#skeleton)
+     5. [Surface](#surface)
+2. [Features](#features)
+     1. [Existing Features](#existing-features)
+     2. [Future Feature Considerations](#future-feature-considerations)
+3. [**Technologies Used**](#technologies-used)
+4. [**Testing**](#testing)
+    1. [Performance](#performance)
+    2. [HTML Validation](#html-validation)
+    3. [CSS Validation](#css-validation)
+    4. [Manual Testing](#manual-testing)
+    5. [Responsiveness](#responsiveness)
+    6. [Tested User Stories](#tested-user-stories)
+    7. [Bugs](#bugs)
+5. [**Deployment**](#deployment)
+    1. [How this Project was Deployed](#how-this-project-was-deployed)
+    2.  [How to Run this Project in your Browser](#how-to-run-this-project-in-your-browser)
+    3. [How to Run this Project Locally](#how-to-run-this-project-locally)
+6. [**Credits**](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+7. [Acknowledgements](#acknowledgements)
+8. [Disclaimer](#disclaimer)
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+    <br><br>
 ---
+##  User Experience
 
-Happy coding!
+### Strategy
+
+- The User centred Design process started with the creation of the User Stories.  These influenced subsequent feature, layout, and design decisions.
+
+- The main goal for my portfolio website is to attract new recruiters or potential employers to encourage them to hire me as a developer. 
+
+- The portfolio has been designed to provide minimal, but relevant, content that is easy to access, which satisfies the needs of recruiters or potential employers. 
+
+- Animations have been used extensively throughout the site in order to showcase the results of what I can achieve with my software developing knowledge.
+
+#### User Stories
+
+#### Potential employer
+I am an employer looking for software developers: 
+- I need to be convinced as to why I should hire this developer. 
+- I want to find out about what projects he has done.
+- I want to find out what programming languages he knows.
+- I want to find out if can contact him.
+- I want to find out if he has a printable CV. 
+- I want to find out if he is currently available.
+- I want to find out what skills does he has.
+- I want to find out if he has any experience in software development.
+- I want to find out what type of developer he is e.g., frontend, backend, full-stack developer.
+- I want to find out if he has a GitHub page.
+- I want to find out if he has a LinkedIn page.
+- I want to find out if I can contact him directly to his number.
+
+
+#### Portfolio owner
+I am the portfolio owner:
+-	I want to encourage more recruiters and potential employers to contact me.
+-	I want to clearly display information about what I do, my skills, and programming languages I know.
+-	I want recruiters and potential employers to view if I am currently available.
+-	I want recruiters and potential employers to view my LinkedIn page.
+-	I want recruiters and potential employers to be able to contact me easily.
+-	I want recruiters to be able to print my CV.
+- I want recruiters and potential employers to view my GitHub page.
+-	I want to showcase all the projects I have done, which will give then confident of what realistically I can do.
+
+###  Scope
+
+The key features of the portfolio were developed based on the employers or recruiters needs. 
+Employers or recruiters should be able to do the following on the portfolio.
+- View my photo, my name and what I do
+- Print my CV
+- Be able to go to my GitHub profile
+- Be able to go to my LinkedIn profile
+- Send me a message directly with WhatsApp
+- Be able to view my knowledge level in Software development
+- Be able to view my work experience
+- Be able to view the projects I have done
+- Contact me for any enquiries for future employments
+
+### Structure
+
+After identifying what the recruiters and potential employers are looking for in a portfolio the following features were chosen:
+
+- A nice paragraph with my name, image and what I do.
+-	Progress bar loading my knowledge level in software development 
+-	Bullets points showcasing my experiences
+-	Different projects that when hover one show info about the project
+-	WhatsApp links
+-	GitHub links
+-	LinkedIn links 
+-	Printable CV
+-	Sign Up form
+-	Portfolio logo
+For ease of navigation, it was decided to opt for a multi-page site, grouped into 5 pages: Home, Skills, Experience, Projects, and Contact.
+
+### Skeleton
+
+The UI wireframing tool, [Balsamiq](https://balsamiq.com/), was used to create wireframes for each site page as it would appear on desktop, tablet and mobile devices.
+
+The main content areas were expressed in similar ways to create consistency across the site.
+
+A title and motivational heading were included at the top of each page.
+To help recruiters and potential employers, navigate through the site efficiently a fixed navbar was decided upon for desktop viewers. The smaller, neater 'hamburger' icon with accompanying dropdown menu was chosen to provide mobile and tablet users with a less cluttered screen and therefore, a more pleasant browsing experience.
+A footer, which contains very important information: copy right, link of printable CV, LinkedIn link, GitHub link, and WhatsApp link, all of these were included at the bottom of every page.
+
+<br>
+
+#### Wireframes
+
+##### Desktop
+- [Home page for Desktop](./assets/documentation/wireframes/Home.png)
+
+- [Skills page for Desktop](./assets/documentation/wireframes/Skills.png)
+
+- [Experience page for Desktop](./assets/documentation/wireframes/Experience.png)
+
+- [Project page for Desktop](./assets/documentation/wireframes/Projects.png)
+
+- [Contact page for Desktop](./assets/documentation/wireframes/Contact.png)
+
+##### Tablet
+- [Home page for Tablet](./assets/documentation/wireframes/home-tablet.png)
+
+- [Skills page for Tablet](./assets/documentation/wireframes/skills-tablet.png)
+
+- [Experience page for Tablet](./assets/documentation/wireframes/experience-tablet.png)
+
+- [Project page for Tablet](./assets/documentation/wireframes/project-tablet.png)
+
+- [Contact page for Tablet](./assets/documentation/wireframes/contact-tablet.png)
+
+##### Mobile
+- [Home page for Mobile](./assets/documentation/wireframes/home-mobile.png)
+
+- [Skills page for Mobile](./assets/documentation/wireframes/skills-mobile.png)
+
+- [Experience page for Mobile](./assets/documentation/wireframes/experience-mobile.png)
+
+- [Project page for Mobile](./assets/documentation/wireframes/project-mobile.png)
+
+- [Contact page for Mobile](./assets/documentation/wireframes/contact-mobile.png)
+
+<br>
+
+### Surface
+
+##### Desing
+The purpose of the site is aligned with the design: colour, positioning of the menu, animation, and Brading of myself, which is simple, effective, and powerful.
+
+##### Logo
+The logo was a simple made with CSS by my own, colours, fonts, and spacing was experimented and tried several times in order to achieve a colour scheme that suit the entire design also it has a squire circulating around infinite with the meaning of all the time working.
+
+##### Colour Scheme
+
+The colour scheme was chosen in order to convey a simple, clean and visually appealing site: Dark blue is associated with depth, expertise, and stability. Gold is the color of wealth and luxury. 
+The color black represents strength, seriousness, power, and authority.
+
+<img src="./assets/documentation/pallet-color.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
+
+<sub>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sub>
+
+
