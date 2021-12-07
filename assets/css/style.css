@@ -65,6 +65,7 @@ body {
     font-size: 50px;
     color: var(--turquoise)
 }
+#skills,
 #experience,
 #projects{
     color:var(--concrete);
@@ -194,10 +195,6 @@ body {
 }
 /* -------------------------------------------------------------------- Skills Page */
 
-#skills{
-    color:var(--concrete);
-    margin-top:10%;
-}
 #skills h3{
     text-align:center;
     margin-top:10px;
