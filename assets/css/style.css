@@ -251,6 +251,23 @@ body {
 .history-items{
     margin-top:-20px;
 }
+.language-icon{
+    width:25px;
+}
+.progress div img, p{
+    position: relative;
+    display: inline;
+}
+.progress div p{
+    top:-6px;
+    left:10px;
+    color: var(--concrete)
+   
+}
+.progress div img{
+    left:10px;
+
+}
 
 /* -------------------------------------------------------------------- Experience Page */
 
