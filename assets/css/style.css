@@ -153,7 +153,7 @@ body {
     display: grid;
     grid-template-areas: "name-acupation profile-photo paragraph";
     width: 70%;
-    
+
     /* animation:zoom-in 4s linear; */
 }
 
@@ -259,7 +259,7 @@ body {
 .progress div p{
     top:-6px;
     left:10px;
-    color: var(--concrete)
+    color: var(--midnight)
    
 }
 .progress div img{
