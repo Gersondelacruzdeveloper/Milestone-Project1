@@ -153,7 +153,8 @@ body {
     display: grid;
     grid-template-areas: "name-acupation profile-photo paragraph";
     width: 70%;
-    animation:zoom-in 4s linear;
+    
+    /* animation:zoom-in 4s linear; */
 }
 
 .name-ocupation {
