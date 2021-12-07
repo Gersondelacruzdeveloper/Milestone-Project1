@@ -511,11 +511,10 @@ width:80%;
 
         @keyframes change-btn-form-color {
             0%{
-                border:5px solid var(--blue)
-    
+                border:5px solid var(--midnight);
             }
             100%{
-                border:5px solid cadetblue;
+                border:5px solid var(--turquoise);
             }
         }
 
