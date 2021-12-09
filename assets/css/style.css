@@ -719,7 +719,7 @@ footer div {
         z-index: 1;
         top: 0;
         left: 0;
-        background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+        background-color: var(--midnight);
         overflow-y: hidden;
         transition: 0.5s;
         margin: 0;
