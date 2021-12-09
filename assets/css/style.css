@@ -174,7 +174,7 @@ body {
 .name-ocupation h2 {
     width: 18ch;
     font-size: 30px;
-    animation: typing 2s steps(18), blink .5s step-end 10 alternate; 
+    animation: typing 2s steps(18), blink .5s step-end 10 alternate;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -627,10 +627,6 @@ footer div {
               font-size: 35px;
           }
 
-          .name-ocupation h3 {
-              font-size: 25px;
-          }
-
           .profile-photo img {
               width: 250px;
               height: 250px;
@@ -663,7 +659,7 @@ footer div {
           }
 
           .name-ocupation h2 {
-              font-size: 20px;
+            font-size: 25px;
           }
 
           .profile-photo img {
@@ -775,6 +771,11 @@ footer div {
 .name-ocupation h1 {
     font-size: 25px;
 }
+.name-ocupation h2 {
+    font-size: 20px;
+    margin:auto;
+}
+
 
 .profile-photo {
     grid-area: profile-photo;
