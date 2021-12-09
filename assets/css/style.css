@@ -74,13 +74,15 @@ body {
 /* -------------------------------------------------------------------- vertical line to simulate moving data */
 
 #line{
-    position: absolute;
+    position: fixed;
     width:4px;
     height:100%;
     background-color:var(--concrete);
     right: 12%;
     z-index: -1;
     box-shadow: 2px 2px 5px 10px #e6e6e654;
+    top:0px;
+    bottom: 0px;
 }
 
 .drop-inside-line{
