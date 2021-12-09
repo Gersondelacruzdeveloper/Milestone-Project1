@@ -174,7 +174,7 @@ body {
 .name-ocupation h2 {
     width: 18ch;
     font-size: 30px;
-    animation: typing 2s 4s steps(18), blink .5s step-end 10 alternate; 
+    animation: typing 2s steps(18), blink .5s step-end 10 alternate; 
     white-space: nowrap;
     overflow: hidden;
 }
