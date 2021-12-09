@@ -835,6 +835,10 @@ footer div {
         width:90%;
     }
 
+    .progress p{
+        font-size: 13px;
+    }
+
 /* experience section*/
     .timeline-item{
         width:70%;
@@ -890,7 +894,7 @@ footer div {
 /* Animation media queries */
 @keyframes progress1{
     0%{
-        width:40%;
+        width:50%;
     }
     100%{
         width:95%;
@@ -899,7 +903,7 @@ footer div {
     
     @keyframes progress2{
         0%{
-            width:40%;
+            width:50%;
         }
         100%{
             width:90%;
@@ -908,7 +912,7 @@ footer div {
     
     @keyframes progress3{
         0%{
-            width:40%;
+            width:50%;
         }
         100%{
             width:70%;
@@ -917,7 +921,7 @@ footer div {
     
     @keyframes progress4{
         0%{
-            width:40%;
+            width:50%;
         }
         100%{
             width:89%;
@@ -926,7 +930,7 @@ footer div {
     
     @keyframes progress5{
         0%{
-            width:40%;
+            width:50%;
         }
         100%{
             width:98%;
