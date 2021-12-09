@@ -81,8 +81,6 @@ body {
     right: 12%;
     z-index: -1;
     box-shadow: 2px 2px 5px 10px #e6e6e654;
-    top:0px;
-    bottom: 0px;
 }
 
 .drop-inside-line{
@@ -873,7 +871,7 @@ footer div {
 /* spacial margin/size */
         #experience,
         #skills{
-            margin-top:15%;
+            margin-top:5%;
         }
     
         .section-heading{
