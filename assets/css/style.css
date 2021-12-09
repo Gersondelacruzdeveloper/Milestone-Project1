@@ -153,7 +153,6 @@ body {
     display: grid;
     grid-template-areas: "name-acupation profile-photo paragraph";
     width: 70%;
-    /* animation:zoom-in 4s linear; */
 }
 
 .name-ocupation {
@@ -175,7 +174,7 @@ body {
 .name-ocupation h2 {
     width: 18ch;
     font-size: 30px;
-    animation: typing 2s steps(18), blink .5s step-end 10 alternate; 
+    animation: typing 2s 4s steps(18), blink .5s step-end 10 alternate; 
     white-space: nowrap;
     overflow: hidden;
 }
@@ -445,17 +444,6 @@ width:80%;
 }
 
 
-@keyframes zoom-in{
-    0%{
-        transform:scale(.5);
-    }
-    
-    100%{
-        transform:scale(1);
-    }
-    } 
-
-
     @keyframes progress1{
         0%{
             width:20%;
@@ -549,6 +537,7 @@ width:80%;
         @keyframes typing {
             0% {
               width: 0;
+              color:var(--midnight);
             }
           }
           @keyframes blink {
