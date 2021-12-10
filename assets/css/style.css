@@ -7,6 +7,7 @@
     --transparent-black:rgba(0, 0, 3, 0.486);
     --midnight:#011627;
     --font:Wotfard,sans-serif;
+    --black-pearl:#07203a;
 }
 
 /* -------------------------------------------------------------------- Resets */
@@ -378,7 +379,7 @@ width:80%;
 }
 
 .single-box-contact{
-    background-color: #07203a;
+    background-color:var(--black-pearl);
     padding:25px;
     width:310px;
     margin:auto;
