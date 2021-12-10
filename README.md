@@ -277,5 +277,3 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 * [designs.ai](https://designs.ai/colors/color-meanings/midnight-blue). used to check colors combinations to achieve beautiful results.
 * [cloudconverted.com](https://cloudconvert.com/png-to-webp). used to convert png images to webp for better performance.
 
-
-
