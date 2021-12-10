@@ -210,3 +210,53 @@ After an intensive search for the right font, I enconter **Wotfard**, the most u
 ## Features
 
 The project consists of five different pages, all of which can be accessed through the menu in the navigation bar.
+
+
+**Fabicon**
+
+The portfolio’s favicon, displayed on the web Brower’s tab, allows the user to identify the website by sight.
+ 
+**Header**
+- ***Porfolio Logo***: Simple logo created using HTML and CSS by my own width a touch of animation which make is unique. This allows the user to instantly recognise the companies brand. 
+- **Navigation Bar**: allows the user to navigate through the site easily. Fully responsive it condenses to a 'hamburger icon' for a more streamlined appearance on tablet and mobile devices.
+
+**Line data simulator**
+  - The project has a vertical line that simulate data passing constantly, this vertical line is on every page.
+
+**Footer**
+
+Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn link, and WhatsApp link to message directly if desired. furthermore, it has a download link for the CV, and to the right it contains the copyright at my name.
+
+
+#### Index.html (home)features
+  - Small paragraph introducing myself. 
+  - My name with a big font-size.
+  - Full-Stack Developer as occupation
+  - A 50% border radius image of myself.
+  - Nice and long paragraph with a bit of more details about me.
+#### Skills.html features
+  - Title and a subtitle
+  - Animated progress bar with icons inside each bar and language or framework.
+#### Experience.html features
+  - Bitle representing what the page is about.
+  - Bullet points with different dates and positions.
+#### Projects.html features
+  - Title representing what the page is about.
+  - Card showing different projects done, and what languages were used for the particular project.
+#### Contact.html features
+  - Title representing what the page is about.
+  - Card showing different basic contact info like Address, Social Profile,Email and Phone number.
+  -  A traditional Contact form
+
+### Future feactures
+  - For adding future features I would like to implement a login and logout functionality and create a review system that allow users that I work with to leave a review about me.
+
+
+
+
+
+
+
+
+
+
