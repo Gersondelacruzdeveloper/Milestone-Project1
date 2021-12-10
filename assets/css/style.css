@@ -404,6 +404,13 @@ color:var(--concrete);
     margin:auto;
 }
 
+#linkedin:hover,
+#Github:hover,
+#Whatsapp:hover{
+    transform: scale(1.5);
+
+}
+
 #linkedin{
     background-color: #0e76a8;
  
@@ -414,6 +421,9 @@ color:var(--concrete);
 #Whatsapp{
     background-color:  #25d366;
 }
+
+
+
 
 
 
