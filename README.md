@@ -173,10 +173,40 @@ The logo was a simple made with CSS by my own, colours, fonts, and spacing was e
 
 ##### Colour Scheme
 
-The colour scheme was chosen in order to convey a simple, clean and visually appealing site: Dark blue is associated with depth, expertise, and stability. Gold is the color of wealth and luxury. 
-The color black represents strength, seriousness, power, and authority.
+The colour scheme was chosen in order to convey a simple, clean and visually appealing site.
 
-<img src="./assets/documentation/pallet-color.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
+<img src="./assets/documentation/portfolio-pallet-colors.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
 
 <sub>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sub>
 
+- #f2f2f2, Concrete color, also known as decorative concrete, allows traditional grey concrete to be stained and dyed different colors. 
+    - Used in menu to stand out from the background. 
+    - In footer used as background to make a combination with the menu.
+    - Used in sub-title and Paragraph to make a beautiful contrast.
+    - used in the line that simulate moving data.
+
+- #2ec4b6, Turquoise color, the captivating sea-green stone of the ancients, represents wisdom, tranquility, protection, good fortune, and hope. 
+    - Used in all titles.
+    - Border of logo.
+    - home section for praragraph.
+    - In skills sections for progress bar
+    - Used in menu for hover.
+    - Animated btn boder for the contact form.
+
+- #011627, Midnight Blue is a smooth, rich blend of blue and black, reminiscent of the depths of the night sky. Midnight Blue evokes feelings of stability, wisdom, and mystery. Midnight Blue is also considered to be beneficial for the mind and body. It slows down human metabolism and produces a calming effect.
+    - Used as the background color for every pages.
+
+- #07203a, Black pearls are one of the most mysterious-looking of all colored pearls. Black pearls represent mystery, independence, strength, and riches.
+    - Used as the background of the basic contact card
+
+#### Icons
+Icons were used alongside the text within the site in order to help the user to understand the content easier. 
+They were taken from [Font Awesome](https://fontawesome.com/) and chosen to be self explanatory.
+
+#### Typography
+
+After an intensive search for the right font, I enconter **Wotfard**, the most used font for technology, this font can be acompany with **sans-serif** in case Wotfard does not load. I have use this font for the body of the website.
+
+## Features
+
+The project consists of five different pages, all of which can be accessed through the menu in the navigation bar.
