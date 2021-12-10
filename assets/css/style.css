@@ -926,6 +926,18 @@ footer div {
           }
 
 /* contact page */
+        .basic-contact-wraper{
+            grid-template-columns: auto;
+            grid-row-gap:15px;
+            margin: 5% auto;
+        }
+
+        .single-box-contact{
+            padding:15px;
+            width:270px;
+        }
+
+
           .contact_form{
             width:80%;
         }
