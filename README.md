@@ -251,12 +251,31 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 ### Future feactures
   - For adding future features I would like to implement a login and logout functionality and create a review system that allow users that I work with to leave a review about me.
 
+## Technologies Used
 
-
-
-
-
-
+* The project was primarily written in HTML and CSS. Small snippets of JavaScript were used to enhance user experience.
+* The project was written and tested in the [Gitpod](https://gitpod.io/) IDE.
+* The project was debugged using [Google Chrome](https://www.google.com/intl/en_uk/chrome/) [Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
+* The project uses [GitHub](https://GitHub.com/) for hosting source code, for utilising git version control, and for hosting the site on GitHub pages.  
+* The project's template was generated from [Code Institute's Gitpod Template](https://GitHub.com/Code-Institute-Org/gitpod-full-template).
+* The project uses [FontAwesome](https://fontawesome.com/) v5.15.1, a free icon-set/toolkit for web development.
+* The project uses [Google Fonts](https://fonts.google.com/) for typography.
+* The project's images were compressed via [tinyjpg](https://tinyjpg.com/) to be appropriately sized for web content.
+* The project's accessibility was assesed via WebAim's [W.A.V.E](https://wave.webaim.org/) and Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+* The project's screen-reader accessibility was tested using [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en).
+* The project used Toptal's [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess how colour-blind-friendly the site was.
+* The project's colour contrast ratio was assessed using [Contract-Ratio](https://webaim.org/resources/contrastchecker/)
+* The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
+* The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
+* The project's wireframes were designed in [Balsamiq](https://balsamiq.com/wireframes/).
+* [Slack](code-institute-room.slack.com). Used during all phases of development and testing to find the answers to questions and the solutions to problems enountered.
+* [Code Pen](https://codepen.io/denic/pen/GRoOxbM). The code for the typing animation efect on index.html page was initially sourced from the codepen.io site.
+* [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
+* [icons8.com](https://icons8.com/icons/set/html). Used for progress bar icons in skills.html.
+* [chir.ag](https://chir.ag/projects/name-that-color/#07203A). Used for checking the real name of the colors implemented.
+* [Favicon.io](https://favicon.io/favicon-converter/). used to convert the logo to favicon.
+* [designs.ai](https://designs.ai/colors/color-meanings/midnight-blue). used to check colors combinations to achieve beautiful results.
+* [cloudconverted.com](https://cloudconvert.com/png-to-webp). used to convert png images to webp for better performance.
 
 
 
