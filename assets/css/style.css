@@ -383,7 +383,7 @@ width:80%;
     width:310px;
     margin:auto;
 }
-.single-box-contact h4{
+.single-box-contact h3{
 color:var(--turquoise)
 }
 .single-box-contact p{
@@ -421,12 +421,6 @@ color:var(--concrete);
 #Whatsapp{
     background-color:  #25d366;
 }
-
-
-
-
-
-
 
 #icons-in-contact{
     position:relative;
