@@ -284,10 +284,165 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute [Slack](code-institute-room.slack.com) channels, on [Stack Overflow](https://stackoverflow.com/), on [W3Schools](https://www.w3schools.com) and on [Code Pen](https://codepen.io).
 
   ### Home Page
- The website was regularly tested using the Google Chrome Developer Tools Lighthouse test. 
+The website was regularly tested using the Google Chrome Developer Tools Lighthouse test. During the testing I solved many issues however I still have two main issues according to Chrome Developer tool: 
+
+ 1 - The main issue is to do with **Accessibility**, Google Chrome Developer Tools Lighthouse says, "Attribute do not match their role" and point me to a div at the footer. [Image of the issue](assets/documentation/testing/aria-error.png). After trying to figure out this problem and spending days. Decided to temporary delete all the div on the website and run again the Chrome Developer Tools Lighthouse test, afterward I noticed that the developer tool still saying that a div was causing this problem however there were no div. 
+
+ 2 - The second issue is to do with **Best Practice** on project page giving me 93% of score. [Image of the issue](assets/documentation/testing/aspect-radio-error.png).  Developer tool says "Display images with incorrect aspect ratio" this issue is jut on desktop and do not show on mobile. after searching for some solution on internet I realize that it was an issue with google itself for reference got to [Google chrome Lighthouse issue](https://github.com/GoogleChrome/lighthouse/issues/7643).
+
+
 #### Home Desktop
 <img src="assets/documentation/testing/home-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Home Mobile
 <img src="assets/documentation/testing/home-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 <br>
+
+
+### Skills Page
+
+#### Desktop
+<img src="assets/documentation/testing/skills-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+#### Mobile
+<img src="assets/documentation/testing/skills-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+
+### Experience Page
+
+#### Desktop
+<img src="assets/documentation/testing/experience-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+#### Mobile
+<img src="assets/documentation/testing/experience-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+
+### Projects Page
+
+#### Desktop
+<img src="assets/documentation/testing/project-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+#### Mobile
+<img src="assets/documentation/testing/project-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+### Contact Page
+
+#### Desktop
+<img src="assets/documentation/testing/contact-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+#### Mobile
+<img src="assets/documentation/testing/contact-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+<br>
+
+### W3 HTML Validation
+
+[W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents. It highlighted some three errors across the site which have since been recitified: 
+- Favicon link has a incorect rel value and the correct value was added
+- "The link role is unnecessary for element a with attribute href". The link role was eliminated
+- "Duplicated attribute rel". by mistake I added doble atribute to the link rel then one rel attribute was eliminated.
+
+The site currently has no errors:
+<img src="assets/documentation/testing/html-validator-no-errors-page.png" height="auto" width="100%" alt="W3C HTML Validation screenshot showing that the site has no errors." />
+
+<br>
+
+
+### CSS Validation
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
+It highlighted some errors which have since been resolved:
+- a missing curly brace was inserted in the CSS file.
+- a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
+
+The style.css file currently has no errors:
+<img src="assets/documentation/testing/css-validator-no-errors-page.png" height="auto" width="100%" alt="W3C CSS Validation screenshot showing that the CSS file has no errors."/>
+
+<br>
+
+### Manual Testing
+The website has been tested in the following browsers:
+- Chrome Version 85.0.4183.121 
+- Samsung Internet Version 12.0.1.47	
+- Microsoft Edge Version 85.0.564.63 
+- Opera 70
+- Mozilla Firefox 81.0.1
+
+The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge, Opera and Firefox.
+<br>
+
+### Responsiveness
+The website was tested for responsive design using [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).  
+It was tested, and found to respond appropriately with regard to each of the following:
+
+**Mobile devices:**
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+
+**Tablet devices:**
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
+
+**Laptop dimensions:**
+- 15" Laptop (1024 x 800)
+- 13" Laptop (1024 x 800)
+
+**Desktop dimensions:**
+- 24" Desktop (1920 x 1200)
+- 22" Desktop (1680 x 1050)
+- 20" Desktop (1600 x 900)
+
+<br>
+
+### Tested User Stories
+
+#### New User
+I am a employer looking to hire a developer: 
+
+&#9745; I want to find out about what projects the developer has done 
+<img src="assets/documentation/testing/project-done.png" height="auto" width="100%" alt="Screenshot of Desktop project done"/>
+
+&#9745; I want to find out what programming languages he knows and what level of the language he has.
+<img src="assets/documentation/testing/language-know.png" height="auto" width="100%" alt="Screenshot of Desktop skills page."/>
+
+<br>
+
+&#9745;I want to find out if can contact him..
+<img src="assets/documentation/testing/contact.png" height="auto" width="100%" alt="Screenshot of Desktop different contact way."/>
+
+<br>
+
+&#9745; I want to find out if he has a printable CV.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
+
+<br>
+
+&#9745; I want to find out if he has any experience in software development.. 
+<img src="assets/documentation/testing/experience.png" height="auto" width="100%" alt="Screenshot of desktop experience page."/>
+
+<br>
+&#9745; I want to find out what type of developer he is e.g., frontend, backend, full-stack developer.
+<img src="assets/documentation/testing/screenshot-ocupation-developer.png" height="auto" width="100%" alt="Screenshot of desktop ocupation"/>
+
+<br>
+<br>
+
+&#9745; I want to find out if he has a GitHub page.
+<img src="assets/documentation/testing/github-link-screenshot.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes timetable."/>
+
+<br>
+<br>
+
+### Bugs
+  1- **Accessibility** issue  according to Google Chrome Developer Tools Lighthouse 87-91%.
+
+  2- **Best Practice** issue  according to Google Chrome Developer Tools Lighthouse 93%. Just on project page and 100% on mobile.
+
