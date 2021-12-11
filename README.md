@@ -271,6 +271,7 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 * [Slack](code-institute-room.slack.com). Used during all phases of development and testing to find the answers to questions and the solutions to problems enountered.
 * [Code Pen](https://codepen.io/denic/pen/GRoOxbM). The code for the typing animation efect on index.html page was initially sourced from the codepen.io site.
 * [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
+* [flaticon](https://www.flaticon.com/search?word=python&type=icon). Also Used for progress bar icons in skills.html.
 * [icons8.com](https://icons8.com/icons/set/html). Used for progress bar icons in skills.html.
 * [chir.ag](https://chir.ag/projects/name-that-color/#07203A). Used for checking the real name of the colors implemented.
 * [Favicon.io](https://favicon.io/favicon-converter/). used to convert the logo to favicon.
