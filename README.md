@@ -290,5 +290,3 @@ Working code snippets were then replicated in the style.css file in [Gitpod](htt
 #### Home Mobile
 <img src="assets/documentation/testing/home-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 <br>
-
-
