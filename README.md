@@ -277,3 +277,18 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 * [designs.ai](https://designs.ai/colors/color-meanings/midnight-blue). used to check colors combinations to achieve beautiful results.
 * [cloudconverted.com](https://cloudconvert.com/png-to-webp). used to convert png images to webp for better performance.
 
+## Testing
+
+[Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
+Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute [Slack](code-institute-room.slack.com) channels, on [Stack Overflow](https://stackoverflow.com/), on [W3Schools](https://www.w3schools.com) and on [Code Pen](https://codepen.io).
+
+  ### Home Page
+ The website was regularly tested using the Google Chrome Developer Tools Lighthouse test. 
+#### Home Desktop
+<img src="assets/documentation/testing/home-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+
+#### Home Mobile
+<img src="assets/documentation/testing/home-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<br>
+
+
