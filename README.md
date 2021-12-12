@@ -527,3 +527,17 @@ As this project was developed on the master branch, all changes made to the repo
 * CSS: Code Snippet taken from [Code Pen](https://codepen.io/denic/pen/GRoOxbM). The code for the typing animation effect on index.html and modified to have a shading effect and blink just 3 times after phrase is complete.
 
 ---
+
+## Acknowledgements
+
+- [Code Institue](https://codeinstitute.net/) and the very helpful tutors.
+- My project mentor [Gurjot Singh](https://www.linkedin.com/in/gurjot-singh-64466b199/) for his help and guidance during the design and build process. 
+- The [Code Institue](https://codeinstitute.net/) community on [Slack](code-institute-room.slack.com) for their support.
+
+<br>
+
+# Disclaimer
+
+This Portfolio is for educational purposes only.
+
+---
