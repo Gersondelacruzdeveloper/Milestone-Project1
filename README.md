@@ -33,7 +33,9 @@ The project is developed primarily using **HTML** and **CSS**, with a small amou
 5. [**Deployment**](#deployment)
     1. [How this Project was Deployed](#how-this-project-was-deployed)
     2.  [How to Run this Project in your Browser](#how-to-run-this-project-in-your-browser)
-    3. [How to Run this Project Locally](#how-to-run-this-project-locally)
+    3. [Cloning the Repository](#Cloning-the-Repository)
+    4. [Manually Downloading the Repository](#Manually-Downloading-the-Repository)
+    5. [ Opening the Repository](#Opening-the-Repository)
 6. [**Credits**](#credits)
     1. [Content](#content)
     2. [Media](#media)
@@ -501,3 +503,4 @@ As this project was developed on the master branch, all changes made to the repo
 3. You will now have offline access to the contents of the project.
 
 ---
+
