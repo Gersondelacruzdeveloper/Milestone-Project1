@@ -79,7 +79,7 @@ body {
     width:4px;
     height:100%;
     background-color:var(--concrete);
-    right: 12%;
+    right: 1%;
     z-index: -1;
     box-shadow: 2px 2px 5px 10px #e6e6e654;
 }
@@ -740,7 +740,7 @@ footer div {
             width:100%;
             }
             #line{
-                right: 13%;
+                right: 1%;
             }
 
       }
@@ -774,22 +774,8 @@ footer div {
         grid-template-columns:auto auto;
         width:100%;
         }
-
-    /* vertical line to simulate moving data*/
-
-    #line{
-        right: 15%;
-    }
       }
       
-
-     /* stop the vertical line to move on the icon */
-      @media only screen and (max-width: 849px) {
-        #line{
-            right: 16%;
-        }
-
-      }
 
       /* Small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
