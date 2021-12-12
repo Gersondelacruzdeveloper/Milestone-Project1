@@ -316,13 +316,6 @@ width:80%;
     text-align:center;
 }
 
-.card-img{
-    width:352px;
-    height:255px;
-    object-fit: fill;
-  }
-
-
 .card-body{
   position:absolute;
   background: var(--transparent-black);
