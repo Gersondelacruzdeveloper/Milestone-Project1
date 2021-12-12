@@ -504,3 +504,26 @@ As this project was developed on the master branch, all changes made to the repo
 
 ---
 
+## Credits
+
+### Content
+
+* All text used throughout the site was written by me.
+* All general development concepts were devised by me.
+
+### Media
+
+* All png images were sourced from [flaticon](https://www.flaticon.com/search?word=python&type=icon) and [icons8.com](https://icons8.com/icons/set/html)
+
+* [flaticon](https://www.flaticon.com/search?word=python&type=icon). Used for most of the progress bar png image except from the last one in skills.html.
+* [icons8.com](https://icons8.com/icons/set/html). Used for the last image in progress bar in skills.html. 
+
+## Code
+
+* HTML/CSS: Implementation and utilisation of Grid CSS layout was assisted by [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+]
+* HTML/CSS: Implementation and utilisation of Grid CSS layout was assisted by [W3school](https://www.w3schools.com/css/css_grid.asp).
+
+* CSS: Code Snippet taken from [Code Pen](https://codepen.io/denic/pen/GRoOxbM). The code for the typing animation effect on index.html and modified to have a shading effect and blink just 3 times after phrase is complete.
+
+---
