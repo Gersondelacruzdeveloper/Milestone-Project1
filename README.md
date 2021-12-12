@@ -209,7 +209,7 @@ They were taken from [Font Awesome](https://fontawesome.com/) and chosen to be s
 
 After an intensive search for the right font, I enconter **Wotfard**, the most used font for technology, this font can be acompany with **sans-serif** in case Wotfard does not load. I have use this font for the body of the website.
 
-## Features
+## Existing Features
 
 The project consists of five different pages, all of which can be accessed through the menu in the navigation bar.
 
@@ -250,7 +250,7 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
   - Card showing different basic contact info like Address, Social Profile,Email and Phone number.
   -  A traditional Contact form
 
-### Future feactures
+### Future Feature Considerations
   - For adding future features I would like to implement a login and logout functionality and create a review system that allow users that I work with to leave a review about me.
 
 ## Technologies Used
