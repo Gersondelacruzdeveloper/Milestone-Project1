@@ -423,7 +423,7 @@ I am a employer looking to hire a developer:
 <br>
 
 &#9745; I want to find out if he has a printable CV.
-<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
+<img src="assets/documentation/testing/printable-cv.png" height="auto" width="100%" alt="Screenshot of link for CV."/>
 
 <br>
 
@@ -438,7 +438,7 @@ I am a employer looking to hire a developer:
 <br>
 
 &#9745; I want to find out if he has a GitHub page.
-<img src="assets/documentation/testing/github-link-screenshot.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes timetable."/>
+<img src="assets/documentation/testing/github-link-screenshot.png" height="auto" width="100%" alt="Screenshot of social profile links."/>
 
 <br>
 <br>
