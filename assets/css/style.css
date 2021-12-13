@@ -735,7 +735,7 @@ footer div {
           }
 
           .card-container{
-            grid-template-columns:auto auto auto;
+            grid-template-columns:auto auto ;
             width:100%;
             }
 
