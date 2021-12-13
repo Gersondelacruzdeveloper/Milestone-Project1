@@ -327,6 +327,7 @@ width:80%;
   overflow: hidden;
 }
 
+
 .card:hover .card-body{
     visibility: visible;
     cursor: pointer;
@@ -349,6 +350,10 @@ width:80%;
     top:100px;
 
 }
+.card-body p{
+    font-size: 13px;
+}
+
 
 .card-body:hover h1{
     animation: move-title-text 0.2s linear forwards;
