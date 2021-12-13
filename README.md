@@ -337,7 +337,7 @@ The website was regularly tested using the Google Chrome Developer Tools Lightho
 
 <br>
 
-### W3 HTML Validation
+### HTML Validation
 
 [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents. It highlighted some three errors across the site which have since been recitified: 
 - Favicon link has a incorect rel value and the correct value was added
@@ -352,7 +352,7 @@ The site currently has no errors:
 
 ### CSS Validation
 
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator) was used to validate the style.css file. 
 It highlighted some errors which have since been resolved:
 - a missing curly brace was inserted in the CSS file.
 - a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
