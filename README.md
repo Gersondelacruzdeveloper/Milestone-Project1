@@ -425,6 +425,15 @@ The following functionality were tested on the footer:
   * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
   * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
 
+## Enquire Form
+*Ensure all placeholders has its appropriate name.
+*Ensure Full Name field accepts any value, but requires at least one character to be deemed valid.
+*Ensure Subject field accepts any value, but requires at least one character to be deemed valid.
+*Ensure Message field accepts any value, but requires at least one character to be deemed valid.
+*Ensure Email field only accept values in appropriate email format and cannot leave it in blank.
+*Ensure all input request are met before submitting the form.
+*Ensure users or potential employers received the nice and tidy message after submitting the form.
+
 #### New User 
 I am a employer looking to hire a developer: 
 
