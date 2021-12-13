@@ -293,46 +293,46 @@ The website was regularly tested using the Google Chrome Developer Tools Lightho
 
 
 #### Home Desktop
-<img src="assets/documentation/testing/home-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-home-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Home Mobile
-<img src="assets/documentation/testing/home-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-home-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 <br>
 
 
 ### Skills Page
 
 #### Desktop
-<img src="assets/documentation/testing/skills-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-skills-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Mobile
-<img src="assets/documentation/testing/skills-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-skills-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 
 ### Experience Page
 
 #### Desktop
-<img src="assets/documentation/testing/experience-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-experience-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Mobile
-<img src="assets/documentation/testing/experience-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-experience-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 
 ### Projects Page
 
 #### Desktop
-<img src="assets/documentation/testing/project-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-projects-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Mobile
-<img src="assets/documentation/testing/project-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-projects-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 ### Contact Page
 
 #### Desktop
-<img src="assets/documentation/testing/contact-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-contact-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 #### Mobile
-<img src="assets/documentation/testing/contact-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-contact-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 <br>
 
