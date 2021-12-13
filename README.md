@@ -112,7 +112,6 @@ After identifying what the recruiters and potential employers are looking for in
 -	GitHub links
 -	LinkedIn links 
 -	Printable CV
--	Sign Up form
 -	Portfolio logo
 For ease of navigation, it was decided to opt for a multi-page site, grouped into 5 pages: Home, Skills, Experience, Projects, and Contact.
 
@@ -123,7 +122,7 @@ The UI wireframing tool, [Balsamiq](https://balsamiq.com/), was used to create w
 The main content areas were expressed in similar ways to create consistency across the site.
 
 A title and motivational heading were included at the top of each page.
-To help recruiters and potential employers, navigate through the site efficiently a fixed navbar was decided upon for desktop viewers. The smaller, neater 'hamburger' icon with accompanying dropdown menu was chosen to provide mobile and tablet users with a less cluttered screen and therefore, a more pleasant browsing experience.
+To help recruiters and potential employers, navigate through the site efficiently navbar was decided upon for desktop viewers. The smaller, neater 'hamburger' icon with accompanying dropdown menu was chosen to provide mobile and tablet users with a less cluttered screen and therefore, a more pleasant browsing experience.
 A footer, which contains very important information: copy right, link of printable CV, LinkedIn link, GitHub link, and WhatsApp link, all of these were included at the bottom of every page.
 
 <br>
