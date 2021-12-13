@@ -419,7 +419,13 @@ All functionality for the Navbar was manualy tested on every page.
 * Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
 * Ensure the navigation links display the appropriate effects when hovered over:
 
-#### New User
+## Footer
+The following functionality were tested on the footer:
+  * On each page, ensure the GitHub / LinkedIn, & WhatsApp links open to the correct webpage, and are opened externally.   
+  * Ensure the Footer appearance is consistent across all pages, and maintains the same height. 
+  * When adjusting the horizontal viewport, ensure the Footer elements' font sizes adjust themselves appropriately.
+
+#### New User 
 I am a employer looking to hire a developer: 
 
 &#9745; I want to find out about what projects the developer has done 
