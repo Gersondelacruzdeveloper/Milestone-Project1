@@ -3,7 +3,7 @@
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
-<img src="./assets/documentation/portfolio-main.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
+<img src="./assets/documentation/readme-file-main-image.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
 
 Hello, this is my portfolio and is the first of four Milestone Projects that make up the Full Stack Web Development Program at the Code Institue. The main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
