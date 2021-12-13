@@ -167,10 +167,10 @@ A footer, which contains very important information: copy right, link of printab
 ### Surface
 
 ##### Desing
-The purpose of the site is aligned with the design: colour, positioning of the menu, animation, and Brading of myself, which is simple, effective, and powerful.
+The purpose of the site is aligned with the design: colour, positioning of the menu, animation, and Branding of myself, which is simple, effective, and powerful.
 
 ##### Logo
-The logo was a simple made with CSS by my own, colours, fonts, and spacing was experimented and tried several times in order to achieve a colour scheme that suit the entire design also it has a squire circulating around infinite with the meaning of all the time working.
+The logo was a simple made with CSS by my own, colours, fonts, and spacing, it was experimented and tried several times in order to achieve a colour scheme that suit the entire design also it has a squire circulating around infinite with the meaning of all the time working.
 
 ##### Colour Scheme
 
@@ -230,7 +230,7 @@ Each page has a fixed footer at the bottom. This provides GitHub link, LinkedIn 
 
 
 #### Index.html (home)features
-  - Small paragraph introducing myself. 
+  - Small paragraph introducing myself:  this welcomes the potential employers to my portfolio.
   - My name with a big font-size.
   - Full-Stack Developer as occupation
   - A 50% border radius image of myself.
@@ -402,8 +402,22 @@ It was tested, and found to respond appropriately with regard to each of the fol
 - 20" Desktop (1600 x 900)
 
 <br>
+## Navigation bar (Navbar)
 
-### Tested User Stories
+## Navigation bar (Navbar)
+
+All functionality for the Navbar was manualy tested on every page.
+
+* Visit all links within the navbar in every possible order to ensure they are functional and route correctly:
+  * Home -> Skills // Home ->  Experience // Home -> Projects //home -> Contact
+  * Skills -> Home // Skills ->  Experience // Skills -> Projects //Skills -> Contact
+  * Experience -> Home // Experience -> Skills // Experience -> Projects //Experience -> Contact
+  * Projects -> Home // Projects -> Skills // Projects -> Experience //Projects -> Contact
+  * Contact -> Home // Contact -> Skills // Contact -> Experience //Contact -> Projects
+
+* Ensure the height of the Navbar is a consistent height across each page. 
+* Ensure Navbar elements (logo/links) maintain their position through navigation of the site. 
+* Ensure the navigation links display the appropriate effects when hovered over:
 
 #### New User
 I am a employer looking to hire a developer: 
