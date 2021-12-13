@@ -288,9 +288,16 @@ Working code snippets were then replicated in the style.css file in [Gitpod](htt
 The website was regularly tested using the Google Chrome Developer Tools Lighthouse test. During the testing I solved many issues however I still have two main issues according to Chrome Developer tool: 
 
  1 - The main issue is to do with **Accessibility**, Google Chrome Developer Tools Lighthouse says, "Attribute do not match their role" and point me to a div at the footer. [Image of the issue](assets/documentation/testing/aria-error.png). After trying to figure out this problem and spending days. Decided to temporary delete all the div on the website and run again the Chrome Developer Tools Lighthouse test, afterward I noticed that the developer tool still saying that a div was causing this problem however there were no div. 
+ 
+   **Solution 1** 
+  - After discussing the issue with my mentor and tutor **Gurjot Singh** he suggested the issue was because I installed a Software called Grammarly. After removing this software from Google Chrome,  then the Developer Lighthouse Test Scores when to 100%.
+
 
  2 - The second issue is to do with **Best Practice** on project page giving me 93% of score. [Image of the issue](assets/documentation/testing/aspect-radio-error.png).  Developer tool says "Display images with incorrect aspect ratio" this issue is jut on desktop and do not show on mobile. after searching for some solution on internet I realize that it was an issue with google itself for reference got to [Google chrome Lighthouse issue](https://github.com/GoogleChrome/lighthouse/issues/7643).
 
+  **Solution 2** 
+
+  - After discussing the issue with my mentor and tutor **Gurjot Singh** he suggested the issue was because I put a width and height to the image directly and he recommend that as best practice I should adjust the image to the size that I wanted to display and not to put any width and height. I have done that and as expected the original error disappeared. However, the page is still on 93% due to low resolution images. These images have been screenshotting from previous website I have done. And I do not have any other image to put on instead. 
 
 #### Home Desktop
 <img src="assets/documentation/testing/lighthouse-screenshot/screenshot-lighthouse-home-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
