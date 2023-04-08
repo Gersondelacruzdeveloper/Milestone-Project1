@@ -1,7 +1,7 @@
 
 <h1 align="center">My Portfolio</h1>
 
-<h2 align="center">Code Institute - Milestone Project 1</h2>
+<h2 align="center">Code Institute - Milestone Project -> 1</h2>
 
 <img src="./assets/documentation/readme-file-main-image.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
 
