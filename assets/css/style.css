@@ -34,12 +34,15 @@ a {
 }
 /* -------------------------------------------------------------------- Hover / Focus */
 
-li a:hover,
-li a:focus {
+.overlay-content li a:hover,
+.overlay-content li a:focus {
     color: var(--turquoise);
     border-bottom: 2px solid var(--turquoise);
 }
-  
+.overlay-content .active a{
+    color: var(--turquoise);
+    border-bottom: 2px solid var(--turquoise);
+}
 
 /* -------------------------------------------------------------------- Accessibility */
 
