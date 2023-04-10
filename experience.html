@@ -1,125 +1,175 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Metas -->
-    <meta name="description"
-      content="Creative, analytical and curious developer with a passion for user friendly tech.">
-    <meta name="keywords" content="Full Stack Web Developer, Web Developer, 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Metas -->
+  <meta name="description" content="Creative, analytical and curious developer with a passion for user friendly tech.">
+  <meta name="keywords" content="Full Stack Web Developer, Web Developer, 
         programmers,css,html,JavaScript,Django,React,
         React Native,Python, Apis">
-    <meta name="author" content="Gerson De La Cruz" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="https://gersondelacruzdeveloper.github.io/Milestone-Project1/">
-    <meta name="robots" content="index, follow">
-    <title>Gerson De La Cruz</title>
-    <!-- Local stylesheets -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Ultra" rel="stylesheet">
-  </head>
+  <meta name="author" content="Gerson De La Cruz" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://gersondelacruzdeveloper.github.io/Milestone-Project1/">
+  <meta name="robots" content="index, follow">
+  <title>Gerson De La Cruz</title>
+  <!-- Local stylesheets -->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ultra" rel="stylesheet">
+</head>
 
-  <body>
+<body>
 
-    <!-- "vertical line to simulate moving data" -->
-    <div id="line">
-      <div class="drop-inside-line"></div>
+  <!-- "vertical line to simulate moving data" -->
+  <div id="line">
+    <div class="drop-inside-line"></div>
+  </div>
+
+  <!--Header section-->
+  <header id="header">
+
+    <div class="logo-circle"></div>
+    <div class="logo">G</div>
+
+    <div class="menu-bar tap-target" role="button" id="nav-burger">
+      <span class="sr-only">Open the navigation menu</span>
+      <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
     </div>
 
-    <!--Header section-->
-    <header id="header">
-
-      <div class="logo-circle"></div>
-      <div class="logo">G</div>
-
-      <div class="menu-bar tap-target" role="button" id="nav-burger">
-        <span class="sr-only">Open the navigation menu</span>
-        <i class="fas fa-bars fa-2x tap-target bar-icon"></i>
+    <nav class="menu" id="menu">
+      <div class="menu-bar" role="button" id="close-icon">
+        <span class="sr-only">Close the navigation menu</span>
+        <i class="fas fa-times fa-2x tap-target close-icon"></i>
       </div>
+      <ul class="overlay-content">
+        <li class="list-item"><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li class="list-item"><a href="./skills.html"><i class="fas fa-cogs"></i> Skills</a></li>
+        <li class="list-item active"><a href="./experience.html"><i class="fas fa-toolbox"></i> Experience &
+            Education</a></li>
+        <li class="list-item"><a href="./projects.html"><i class="fas fa-clipboard-list"></i> Projects </a></li>
+        <li class="list-item"><a href="./contact.html"><i class="far fa-comment"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!--Experience section-->
+    <section id="experience">
+      <h2 class="section-heading">Work Experience</h2>
 
-      <nav class="menu" id="menu">
-        <div class="menu-bar" role="button" id="close-icon">
-          <span class="sr-only">Close the navigation menu</span>
-          <i class="fas fa-times fa-2x tap-target close-icon"></i>
-        </div>
-        <ul class="overlay-content">
-          <li class="list-item"><a href="./index.html"><i class="fas fa-home"></i> Home</a></li>
-          <li class="list-item"><a href="./skills.html"><i class="fas fa-cogs"></i> Skills</a></li>
-          <li class="list-item active"><a href="./experience.html"><i class="fas fa-toolbox"></i> Experience</a></li>
-          <li class="list-item"><a href="./projects.html"><i class="fas fa-clipboard-list"></i> Projects </a></li>
-          <li class="list-item"><a href="./contact.html"><i class="far fa-comment"></i> Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!--Experience section-->
-      <section id="experience">
-        <h2 class="section-heading">Work Experience</h2>
+      <div class="history-items">
 
-        <div class="history-items">
-
-          <div class="timeline-item">
-            <h3>02/1998 - 04/2004</h3>
-            <h4>National College of Art and Design (NCAD)</h4>
-            <p>Sculptor in residence</p>
-          </div>
-
-          <div class="timeline-item">
-            <h3>03/2004 - 04/2006</h3>
-            <h4>Fisher and Diaz Funeral Directors</h4>
-            <p>Junior Embalmer</p>
-          </div>
-
-          <div class="timeline-item" data-dates="06/2008 - 06/2011">
-            <h3>04/2006 - 06/2017</h3>
-            <h4>Phantom Design Inc. Dublin</h4>
-            <p>Junior Front End Developer</p>
-          </div>
-
-          <div class="timeline-item" data-dates="06/2011 - Present">
-            <h3>06/2017 - 05/2021</h3>
-            <h4>Hooli Inc. Silicon Valley</h4>
-            <p>Full Stack Web Developer</p>
-          </div>
-
+        <div class="timeline-item">
+          <h3>Frontend Developer</h3>
+          <h4>Mar 2021 - Mar 2023</h4>
+          <h5>At the Welsh Joint Education (WJEC)</h5>
+          <p>Developed internal projects, Invent new software to speed up the working process of the CMS using backend
+            technology and frameworks, Optimized performance of the internal projects </p>
         </div>
 
-      </section>
-    </main>
-    <!--Footer section-->
-    <footer>
-      <div class="copyright-container">
-        <p class="copyright">&copy;
-          <script>document.write(new Date().getFullYear())</script> by De La Cruz
-       </p>
+        <div class="timeline-item">
+          <h3>Freelancing</h3>
+          <h4>2019 - 2021</h4>
+          <h5>Peopleperhour</h5>
+          <p>Created over 20 websites using the following skills:
+            Python, JavaScript, TypeScript
+            CSS3, HTML5, jQuery, SQL
+            Django, ReactJS, Flask, Bootstrap, PostgreSQL, MongoDB, SQL Database,
+            Git, GitHub, APIs using Django AWS, Docker, PyCharm, Vscode.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>It assistent Teacher and Supply</h3>
+          <h4>2019 - 2021</h4>
+          <h5>At Llantwit Major School</h5>
+          <p>Instructing students on how to use different types of
+            computer software or hardware and introducing them to
+            languages like CSS, HTML, PYTHON</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Spanish Teacher</h3>
+          <h4>2018 - 2019</h4>
+          <h5>At Cardiff Steiner School</h5>
+          <p>Managing, Planning, preparing, and delivering lessons.
+            Prioritizing tasks and self-managing</p>
+        </div>
       </div>
 
-      <div class="cv-pdf">
-        <a href="assets/cv/gerson-uk-cv.pdf" target="_blank"><i class="fas fa-download"></i> Download CV</a>
-      </div>
-      <div class="social">
-        <a aria-label="Linkedin" rel="noopener" href="https://www.linkedin.com/in/gerson-de-la-cruz-453784213/"
-          target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a aria-label="Github" rel="noopener" href="https://github.com/Gersondelacruzdeveloper" target="_blank"><i
-            class="fab fa-github"></i></a>
-        <a aria-label="Whatsapp" rel="noopener" href="https://api.whatsapp.com/send?phone=447541147634"
-          target="_blank"><i id="whatsapp" class="fab fa-whatsapp"></i></a>
+    </section>
+    <!--Education-->
+    <section id="education">
+      <h2 class="section-heading" style="margin-top: 40px;"> Education</h2>
+
+      <div class="history-items">
+
+        <div class="timeline-item">
+          <h3>Full Stack Sofware Development</h3>
+          <h4>Sep 2021 - Sep 2022</h4>
+          <h5>Code Institute (in cooperation with Napier University,Scotland)</h5>
+          <ul style="text-decoration: none;">
+            <li class="li-margin">University credit rated remote bootcamp</li>
+            <li class="li-margin">Focused on gaining skills in problem solving and delivering with high
+              quality within a fixed time-frame.</li>
+            <li class="li-margin">The students are examinated based on 4 inidividual projects ranging from a
+              static frontend site to a full stack e-commerse site - including the entire flow
+              from UX and design to development and testing.</li>
+              <li class="li-margin">Covers a wide range of technologies and frameworks, such as: HTML, CSS,
+                Bootstrap, JavaScript, jQuery, API:s, Python and Django.</li>
+                <li class="li-margin">Git is used for version control and Stripe for payment services.</li>
+                <li class="li-margin">Developing in teams are practised through 'Hackathons' where the students
+                  work together on planning and building an application.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Bachelor's degree in Languages and business management</h3>
+          <h4>2017 - 2021</h4>
+          <h5>Open University</h5>
+          <ul class="exp-ul">
+            <li class="li-margin">broad understanding of business organisation</li>
+            <li class="li-margin">The program also cover areas such as markets, customers, finance, operations,
+              information technology, business policy and strategy.</li>
+          </ul>
+        </div>
+
       </div>
 
-    </footer>
-    <!-- Local Javascript -->
-    <script src="assets/js/NavBar.js"></script>
-  </body>
+    </section>
+  </main>
+  <!--Footer section-->
+  <footer>
+    <div class="copyright-container">
+      <p class="copyright">&copy;
+        <script>document.write(new Date().getFullYear())</script> by De La Cruz
+      </p>
+    </div>
+
+    <div class="cv-pdf">
+      <a href="assets/cv/gerson-uk-cv.pdf" target="_blank"><i class="fas fa-download"></i> Download CV</a>
+    </div>
+    <div class="social">
+      <a aria-label="Linkedin" rel="noopener" href="https://www.linkedin.com/in/gerson-de-la-cruz-453784213/"
+        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a aria-label="Github" rel="noopener" href="https://github.com/Gersondelacruzdeveloper" target="_blank"><i
+          class="fab fa-github"></i></a>
+      <a aria-label="Whatsapp" rel="noopener" href="https://api.whatsapp.com/send?phone=447541147634" target="_blank"><i
+          id="whatsapp" class="fab fa-whatsapp"></i></a>
+    </div>
+
+  </footer>
+  <!-- Local Javascript -->
+  <script src="assets/js/NavBar.js"></script>
+</body>
 
 </html>
